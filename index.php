@@ -1,3 +1,13 @@
+<?php
+	// Website INFOS
+	define('DOMAIN', 'https://kesnel.link');
+	define('URL', 'https://kesnel.link/');
+	$description = "";
+	$title = "Kesnel Samuel";
+	$og_img = URL."static/img/card/kesnel-samuel-cover.jpeg";
+    $copyrights =  " © " . date("Y") . " Kre8 Design Studio ";
+?>
+
 <!--
  █████   ████                                      ████      █████████                                                ████ 
 ░░███   ███░                                      ░░███     ███░░░░░███                                              ░░███ 
@@ -16,7 +26,7 @@
 <meta charset="UTF-8">
 <meta name="viewport"   content="width=device-width, initial-scale=1.0">
 
-<title> Kesnel Samuel </title>
+<title> <?=  $title ?> </title>
 
 <meta name="theme-color"        content="#09B1BA">
 <meta name="language"           content="English">
@@ -30,47 +40,47 @@
 <meta name="googlebot"          content="index, follow">
 
 <meta name="keywords"           content="kesnel samuel jean philippe, data scientist, web developer, haitian in tech, tech, stem">
-<meta name="description"        content="">
+<meta name="description"        content="<? $description ?>">
 
 <!-- Open Graph / Facebook -->
-<meta property="og:site_name"          content="tutipad">
+<meta property="og:site_name"          content="kesnel">
 <meta property="og:type"               content="website">
-<meta property="og:url"                content="https://kesnel.link/">
-<meta property="og:title"              content="Kesnel Samuel">
-<meta property="og:description"        content="">
-<meta property="og:image"              content="static/img/card/kesnel-samuel-cover.jpeg">
-<meta property="og:image:secure_url"   content="static/img/card/kesnel-samuel-cover.jpeg">
+<meta property="og:url"                content="<?= URL ?>">
+<meta property="og:title"              content="<?= $title ?>">
+<meta property="og:description"        content="<? $description ?>">
+<meta property="og:image"              content="<?= $og_img ?>">
+<meta property="og:image:secure_url"   content="<?= $og_img ?>">
 
 <!-- Twitter Card -->
 <meta name="twitter:card"              content="summary_large_image">
 <meta name="twitter:type"          	   content="website">
-<meta name="twitter:url"               content="https://kesnel.link/">
+<meta name="twitter:url"               content="<?= URL ?>">
 <meta name="twitter:site"          	   content="@kesnelsamuel">
 <meta name="twitter:creator"           content="@kesnelsamuel">
-<meta name="twitter:title"             content="Kesnel Samuel">
-<meta name="twitter:description"       content="">
-<meta name="twitter:image"             content="static/img/card/kesnel-samuel-cover.jpeg">
+<meta name="twitter:title"             content="<?= $title ?>">
+<meta name="twitter:description"       content="<? $description ?>">
+<meta name="twitter:image"             content="<?= $og_img ?>">
 
 <!-- Fav Icons -->
-<link rel="apple-touch-icon" sizes="57x57"      href="static/img/fav-ico/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60"      href="static/img/fav-ico/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72"      href="static/img/fav-ico/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76"      href="static/img/fav-ico/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114"    href="static/img/fav-ico/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120"    href="static/img/fav-ico/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144"    href="static/img/fav-ico/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152"    href="static/img/fav-ico/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180"    href="static/img/fav-ico/apple-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="57x57"      href="<?= URL ?>static/img/fav-ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60"      href="<?= URL ?>static/img/fav-ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72"      href="<?= URL ?>static/img/fav-ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76"      href="<?= URL ?>static/img/fav-ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114"    href="<?= URL ?>static/img/fav-ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120"    href="<?= URL ?>static/img/fav-ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144"    href="<?= URL ?>static/img/fav-ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152"    href="<?= URL ?>static/img/fav-ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180"    href="<?= URL ?>static/img/fav-ico/apple-icon-180x180.png">
 
-<link rel="icon" type="image/png" sizes="192x192"   href="static/img/fav-ico/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32"     href="static/img/fav-ico/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96"     href="static/img/fav-ico/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16"     href="static/img/fav-ico/favicon-16x16.png">
-<link rel="manifest" href="static/img/fav-ico/manifest.json">
+<link rel="icon" type="image/png" sizes="192x192"   href="s<?= URL ?>tatic/img/fav-ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32"     href="<?= URL ?>static/img/fav-ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96"     href="<?= URL ?>static/img/fav-ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16"     href="<?= URL ?>static/img/fav-ico/favicon-16x16.png">
+<link rel="manifest" href="<?= URL ?>static/img/fav-ico/manifest.json">
 
 <!-- Additional Meta Tags -->
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="static/img/fav-ico/ms-icon-144x144.png">
+<meta name="msapplication-TileImage" content="<?= URL ?>static/img/fav-ico/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
 <!-- %%%%%%%%  -->
@@ -145,7 +155,7 @@
             
                         <!-- Footer -->
                         <div class="cardFooter">
-                            <p class="cc"> © 2021 <span class="break"> Kesnel Samuel. </span> All right reserved </p>
+                            <p class="cc"> © <?= date("Y")  ?> <span class="break"> Kesnel Samuel. </span> All right reserved </p>
                         </div>
 
                     </div>
