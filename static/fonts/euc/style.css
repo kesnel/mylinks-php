@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-Bold.eot');
+    src: local('KEKE Bold'), local('KEKE-Bold'),
+        url('KEKE-Bold.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-Bold.woff2') format('woff2'),
+        url('KEKE-Bold.woff') format('woff'),
+        url('KEKE-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-Light.eot');
+    src: local('KEKE Light'), local('KEKE-Light'),
+        url('KEKE-Light.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-Light.woff2') format('woff2'),
+        url('KEKE-Light.woff') format('woff'),
+        url('KEKE-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-BoldItalic.eot');
+    src: local('KEKE Bold Italic'), local('KEKE-BoldItalic'),
+        url('KEKE-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-BoldItalic.woff2') format('woff2'),
+        url('KEKE-BoldItalic.woff') format('woff'),
+        url('KEKE-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-LightItalic.eot');
+    src: local('KEKE Light Italic'), local('KEKE-LightItalic'),
+        url('KEKE-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-LightItalic.woff2') format('woff2'),
+        url('KEKE-LightItalic.woff') format('woff'),
+        url('KEKE-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-Regular.eot');
+    src: local('KEKE Regular'), local('KEKE-Regular'),
+        url('KEKE-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-Regular.woff2') format('woff2'),
+        url('KEKE-Regular.woff') format('woff'),
+        url('KEKE-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-SemiBold.eot');
+    src: local('KEKE SemiBold'), local('KEKE-SemiBold'),
+        url('KEKE-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-SemiBold.woff2') format('woff2'),
+        url('KEKE-SemiBold.woff') format('woff'),
+        url('KEKE-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-Medium.eot');
+    src: local('KEKE Medium'), local('KEKE-Medium'),
+        url('KEKE-Medium.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-Medium.woff2') format('woff2'),
+        url('KEKE-Medium.woff') format('woff'),
+        url('KEKE-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-Italic.eot');
+    src: local('KEKE Italic'), local('KEKE-Italic'),
+        url('KEKE-Italic.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-Italic.woff2') format('woff2'),
+        url('KEKE-Italic.woff') format('woff'),
+        url('KEKE-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-SemiBoldItalic.eot');
+    src: local('KEKE SemiBold Italic'), local('KEKE-SemiBoldItalic'),
+        url('KEKE-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-SemiBoldItalic.woff2') format('woff2'),
+        url('KEKE-SemiBoldItalic.woff') format('woff'),
+        url('KEKE-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'KEKE';
+    src: url('KEKE-MediumItalic.eot');
+    src: local('KEKE Medium Italic'), local('KEKE-MediumItalic'),
+        url('KEKE-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('KEKE-MediumItalic.woff2') format('woff2'),
+        url('KEKE-MediumItalic.woff') format('woff'),
+        url('KEKE-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
